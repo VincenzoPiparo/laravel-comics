@@ -1,0 +1,55 @@
+.main_contain {
+    background-color: $secondary_color;
+    position: relative;
+
+    .current {
+        position: absolute;
+        top: -30px;
+        left: 330px;
+        color: white;
+        background-color: #097ceb;
+        padding: 20px;
+        font-weight: bold;
+        font-size: 30px;
+    }
+
+    .comics_contain {
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding: 150px 0 75px;
+        position: relative;
+
+        .load-btn {
+            margin: 0 auto;
+            color: white;
+            font-weight: bold;
+            background-color: #097ceb;
+            padding: 10px 50px;
+            margin: 100px;
+            position: absolute;
+            right: 600px;
+            top: 800px;
+            text-decoration: none;
+        }
+        .comic_card {
+            width: calc(100% / 6 - 10px);
+            padding: 5px;
+            margin-bottom: 50px;
+            color: white;
+            .comic_poster {
+                width: 100%;
+                display: block;
+                object-fit: cover;
+                object-position: top;
+                margin-bottom: 20px;
+            }
+            .comic_title {
+                color: white;
+                align-items: center;
+            }
+        }
+    }
+}
