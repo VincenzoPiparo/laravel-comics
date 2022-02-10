@@ -1,0 +1,27 @@
+.container {
+    display: block;
+    margin-top: 20px;
+    .second_container {
+        position: relative;
+        .box {
+            display: flex;
+            h3 {
+                background-color: green;
+                width: 60%;
+            }
+            p {
+                max-width: 60%;
+            }
+        }
+        .box_img {
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+    }
+    .bottom_container {
+        width: 100%;
+        background-color: lightgray;
+        margin-top: 150px;
+    }
+}

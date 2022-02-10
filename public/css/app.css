@@ -100,3 +100,37 @@ ul {
   align-items: center;
 }
 
+.container {
+  display: block;
+  margin-top: 20px;
+}
+
+.container .second_container {
+  position: relative;
+}
+
+.container .second_container .box {
+  display: flex;
+}
+
+.container .second_container .box h3 {
+  background-color: green;
+  width: 60%;
+}
+
+.container .second_container .box p {
+  max-width: 60%;
+}
+
+.container .second_container .box_img {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.container .bottom_container {
+  width: 100%;
+  background-color: lightgray;
+  margin-top: 150px;
+}
+
