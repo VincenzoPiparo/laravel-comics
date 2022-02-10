@@ -20,3 +20,10 @@ Route::get('/', function () {
     ];
     return view('home',$data);
 })->name('home');
+
+
+Route::get('/single-product/{id}', function ($id) {
+    return view('single-product');
+})->name('product');
+
+
